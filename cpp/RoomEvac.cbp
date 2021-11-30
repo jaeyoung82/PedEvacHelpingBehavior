@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RoomEvac" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-O3" />
+		</Linker>
+		<Unit filename="BaseBehavior.cpp" />
+		<Unit filename="BaseBehavior.h" />
+		<Unit filename="EvolutionaryGame.cpp" />
+		<Unit filename="EvolutionaryGame.h" />
+		<Unit filename="InitialVolunteer.cpp" />
+		<Unit filename="InitialVolunteer.h" />
+		<Unit filename="SocialForceModel.cpp" />
+		<Unit filename="SocialForceModel.h" />
+		<Unit filename="area.cpp" />
+		<Unit filename="area.h" />
+		<Unit filename="behaviors.cpp" />
+		<Unit filename="behaviors.h" />
+		<Unit filename="crossing.cpp" />
+		<Unit filename="crossing.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pedestrian.cpp" />
+		<Unit filename="pedestrian.h" />
+		<Unit filename="scenario.cpp" />
+		<Unit filename="scenario.h" />
+		<Unit filename="vector2D.h" />
+		<Unit filename="wall.cpp" />
+		<Unit filename="wall.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
